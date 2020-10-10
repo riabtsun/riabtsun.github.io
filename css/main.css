@@ -320,14 +320,15 @@ img {
 .button:hover {
   outline: 1px #ffd0bf solid;
 }
-#play-button {
+.play-button {
   position: absolute;
   bottom: 275px;
   right: 325px;
-  background-color: #ffffff00;
+  background: none ;
   border: none;
 }
 .video {
+  max-width: 100%;
   margin-top: 180px;
   width: 719px;
   height: 650px;
@@ -338,6 +339,7 @@ img {
 .section-1 {
   display: block;
   background-image: url("../images/section-1.jpg");
+  position: top center;
   background-repeat: no-repeat;
   z-index: 100;
 }
